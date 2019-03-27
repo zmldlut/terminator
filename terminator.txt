@@ -4,7 +4,11 @@ sudo apt-get install terminator
 2. 修改配置文件
 cd ~/.config/terminator/ && sudo gedit config
 
-3. 修改如下，必要时删除中文注释
+3.如果报错，Unable to open ~/.config/terminator/config，
+解决方法： 
+打开terminator终端，然后右击终端的黑色背景，选择preference->layouts->add，关闭该窗口即可找到config文件。
+
+4. 修改如下，必要时删除中文注释
 [global_config]
   title_transmit_bg_color = "#d30102"
   focus = system
